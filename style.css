@@ -1,0 +1,78 @@
+*{
+    margin : 0;
+    padding: 0;
+    background-image: url("img/fundo.jpg");
+    color: yellow;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: small;
+    font-variant: small-caps;
+    font-weight: bold;
+    font-stretch: expanded;
+    
+}
+
+h1{
+    padding: 10px;
+    text-align: center;
+
+}
+#container{
+    border: 1px solid yellow;
+    width: 40%;
+    margin: auto;
+}div{
+    font-family: sans-serif;
+    padding: 10px;
+}
+
+.salvar{
+    background-color: yellow;
+}
+
+.centro{
+    text-align: center;
+}
+
+#logo{
+    width: 90%
+}
+button{
+    border: 2px solid yellow;
+    background-image: url("img/fundo.jpg");
+    text-align: center;
+    margin: auto;
+    width: 100%;
+}
+
+#tbpedi{
+    width: 50%;
+    margin: auto;
+    border: 2px solid grey;
+}thead{
+    background-color: grey;
+    font-weight: bold;
+}
+
+thead td{
+    padding: 5px;
+}
+
+td{
+    padding: 0px;
+    width: auto;
+}
+
+.table-responsive{
+    width: 100% !important;
+}
+
+.table{
+    border: 2px solid yellow;
+    width: 100% !important;
+    margin: auto;
+}
+
+.msn{
+    color: yellow;
+    text-align: center;
+}

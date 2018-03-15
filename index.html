@@ -1,0 +1,45 @@
+<html>
+    <head>
+    <link href="style.css" rel="stylesheet"/>
+    
+    <script src="Principal.js"></script>
+
+    </head>
+    <body>
+
+        <div id="container">
+            <div class="centro"><a href=https://www.youtube.com/channel/UCOsVyUw2u9LFBsYzQxKJYBw title="link canal youtube"> <img id="logo" src="img/babayaga.jpg"></a></div>
+            <h1>PEDIDOS DE CAMISETAS</h1>
+            <div class="centro">Quantidade P: (R$ 10) <input value="0" type="number" id="s1"/></div>
+            <div class="centro">Quantidade M: (R$ 12) <input value="0" type="number" id="s2"/></div>
+            <div class="centro">Quantidade G: (R$ 15) <input value="0" type="number" id="s3"/></div>
+            <div class"centro"> 
+                <button class="salvar" onclick="princ.salvar()" title="salvar pedido">SALVAR PEDIDO</button>
+            
+            </div>        
+            
+            <div class="msn"><div id="mensagem"> </div>
+            
+            </div>
+            
+
+
+            <div>
+                    <table class="table" id="tbpedidos">
+                    <thead>
+                        <td>P</td>
+                        <td>M</td>
+                        <td>G</td>
+                        <td>VALOR</td>
+                        <td><input type="button" value="Delete" onclick="deleteRow(this.parentNode.parentNode.rowIndex)"></td>
+                        <td><input type="button" value="Edit" onclick="deleteRow(this.parentNode.parentNode.rowIndex)"> </td>
+                    </thead>
+                    <tbody class="table" id="tbpedi">
+                        
+                    </tbody>
+
+                </table>
+            </div>
+        </div>
+    </body>
+</html>
